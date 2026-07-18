@@ -1,32 +1,32 @@
 <div align="center">
 
-<!-- HEADER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Mihir%20Govind&fontSize=80&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Backend%20Developer%20%F0%9F%9A%80%20India%20%F0%9F%87%AE%F0%9F%87%B3&descAlignY=55&descSize=20" width="100%" />
+<!-- ═══════════ ANIMATED HEADER ═══════════ -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8b5cf6,50:06b6d4,100:10b981&height=220&section=header&text=Mihir%20Govind&fontSize=75&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Backend%20Developer%20%7C%20Spring%20Boot%20%7C%20Microservices%20%7C%20India%20%F0%9F%87%AE%F0%9F%87%B3&descAlignY=58&descSize=17" width="100%" />
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=2500&pause=800&color=A855F7&center=true&vCenter=true&width=700&lines=Hey+there!+I'm+Mihir+%F0%9F%91%8B;Backend+Developer+%F0%9F%9B%A0%EF%B8%8F;Spring+Boot+%2B+Microservices+%F0%9F%94%A5;Building+cool+stuff+from+India+%F0%9F%87%AE%F0%9F%87%B3;Always+learning%2C+always+growing+%F0%9F%8C%B1" alt="Typing SVG" />
+<!-- ═══════════ TYPING ANIMATION ═══════════ -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=2500&pause=800&color=A855F7&center=true&vCenter=true&width=750&lines=Hey+there!+%F0%9F%91%8B+I'm+Mihir+Govind;Backend+Developer+%F0%9F%9B%A0%EF%B8%8F+%7C+Spring+Boot+Fan+%E2%98%95;Building+scalable+microservices+%F0%9F%94%A5;Firebase+%7C+Node.js+%7C+Docker+%7C+AWS;I+debug+in+production+%F0%9F%98%85+(jk...+maybe);Always+learning%2C+always+shipping+%F0%9F%9A%80" alt="Typing SVG" />
 
 <br/><br/>
 
-<!-- BADGES -->
+<!-- ═══════════ SOCIAL BADGES ═══════════ -->
 <a href="https://www.linkedin.com/in/mihir-govind/">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
+  <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>&nbsp;
 <a href="mailto:mihirmm0455@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
-</a>
+  <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+</a>&nbsp;
 <a href="https://www.instagram.com/_mihir_govind_">
-  <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
-</a>
+  <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white" />
+</a>&nbsp;
 <a href="https://discord.com/users/__.mihir.__">
-  <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" />
+  <img src="https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white" />
 </a>
 
 <br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=mihir000777&style=for-the-badge&color=blueviolet&label=PROFILE+VIEWS" />
-<img src="https://img.shields.io/github/followers/mihir000777?style=for-the-badge&color=blueviolet&label=FOLLOWERS" />
+<img src="https://komarev.com/ghpvc/?username=mihir000777&style=for-the-badge&color=blueviolet&label=Profile+Views" />
 
 </div>
 
@@ -34,15 +34,15 @@
 
 ## ⚡ About Me
 
-```javascript
+```js
 const mihir = {
-  name:       "Mihir Govind",
-  role:       "Backend Developer 🛠️",
-  location:   "Bengaluru, India 🇮🇳",
-  learning:   ["Spring AI 🤖", "AWS ☁️", "Kubernetes 🐳", "System Design 📐"],
-  building:   "Scalable microservices & secure APIs",
-  funFact:    "I debug in production and call it live testing 😅",
-  openTo:     "Internships, Collabs & Open Source!"
+  name     : "Mihir Govind 👨‍💻",
+  location : "Bengaluru, India 🇮🇳",
+  role     : "Backend Developer 🛠️",
+  learning : ["Spring AI 🤖", "AWS ☁️", "Kubernetes ⚙️", "System Design 📐"],
+  building : "Scalable APIs & Microservices 🔥",
+  funFact  : "I once fixed a prod bug at 3am and called it 'agile' 😅",
+  openTo   : "Internships · Collabs · Open Source 🚀"
 };
 ```
 
@@ -52,11 +52,20 @@ const mihir = {
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=java,javascript,spring,nodejs,express,react&theme=dark&perline=6" />
-<br/>
-<img src="https://skillicons.dev/icons?i=mongodb,mysql,postgresql,redis,firebase,docker&theme=dark&perline=6" />
-<br/>
-<img src="https://skillicons.dev/icons?i=aws,git,github,linux,vscode,postman&theme=dark&perline=6" />
+### Languages & Runtime
+<img src="https://skillicons.dev/icons?i=java,javascript,html,css&perline=8&theme=dark" />
+
+### Backend & Frameworks
+<img src="https://skillicons.dev/icons?i=spring,nodejs,express,firebase&perline=8&theme=dark" />
+
+### Databases & Cache
+<img src="https://skillicons.dev/icons?i=mongodb,mysql,postgres,redis&perline=8&theme=dark" />
+
+### Frontend
+<img src="https://skillicons.dev/icons?i=react,tailwind&perline=8&theme=dark" />
+
+### DevOps & Tools
+<img src="https://skillicons.dev/icons?i=aws,docker,git,github,linux,postman,vscode,idea&perline=8&theme=dark" />
 
 </div>
 
@@ -64,25 +73,48 @@ const mihir = {
 
 ## 🚀 Featured Projects
 
-<div align="center">
+### 🛍️ BMSIT Bazaar
+> **Campus-only P2P Marketplace for BMS Institute of Technology**
 
-| 🏆 Project | 💡 What it does | 🔧 Stack |
-|:---:|:---|:---:|
-| **🛍️ BMSIT Bazaar** | Campus P2P marketplace — buy/sell within `@bmsit.in` verified network. Razorpay paywall, Cloudinary video proof, Haversine geo-delivery | `React` `Firebase` `Razorpay` |
-| **⏳ DropWait** | Real-time queue server. Redis Sorted Sets for O(log N) rank updates + live WebSocket broadcasting | `Node.js` `Redis` `Socket.io` |
-| **📡 Spring REST APIs** | Enterprise API template — JWT auth, rate limiting, Spring AI + OpenAI chat endpoints | `Spring Boot` `Spring AI` `PostgreSQL` |
+A full-stack student marketplace where verified `@bmsit.in` students buy, sell & get doorstep delivery of study materials, electronics & hostel gear.
 
-</div>
+| 🔐 Feature | ⚙️ Implementation |
+|:---|:---|
+| Campus-only auth | Firebase restricted to `@bmsit.in` domain |
+| Listing quality | 3 photos + 15MB Cloudinary verification video |
+| Seller paywall | Razorpay ₹10–₹40 to unlock seller contact |
+| Geo-delivery | Haversine formula, 5km radius from campus |
+| Price decay | Auto-alert seller after 5 days unsold |
+| Demand signals | Zero-result searches logged to Firestore |
 
-### 🛍️ BMSIT Bazaar — Deep Dive
+<img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
+<img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black" />
+<img src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" />
+<img src="https://img.shields.io/badge/Cloudinary-3448C5?style=flat-square&logo=cloudinary&logoColor=white" />
+<img src="https://img.shields.io/badge/Razorpay-02042B?style=flat-square&logo=razorpay&logoColor=3395FF" />
 
-> A full-stack student marketplace built exclusively for BMS Institute of Technology
+---
 
-- 🔐 **Auth** → Firebase, restricted to `@bmsit.in` domain only
-- 📸 **Listings** → 3 photos + 15MB Cloudinary video for fraud prevention  
-- 💳 **Monetization** → Razorpay paywall (₹10–₹40) to reveal seller contact
-- 🌐 **Geo-delivery** → Haversine distance check within 5km of campus
-- 📊 **Analytics** → Zero-result searches logged as demand signals
+### ⏳ DropWait
+> **Real-time Queue & Waitlist Management Server**
+
+High-throughput queue server with live position updates via WebSockets. O(log N) rank lookups using Redis Sorted Sets under concurrent load.
+
+<img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
+<img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" />
+<img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" />
+<img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" />
+<img src="https://img.shields.io/badge/Socket.io-010101?style=flat-square&logo=socketdotio&logoColor=white" />
+
+---
+
+### 📡 Spring Boot REST APIs
+> **Enterprise API template with Spring AI + LLM endpoints**
+
+<img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" />
+<img src="https://img.shields.io/badge/Spring_Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white" />
+<img src="https://img.shields.io/badge/Spring_AI-6DB33F?style=flat-square&logo=spring&logoColor=white" />
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
 
 ---
 
@@ -90,12 +122,12 @@ const mihir = {
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=mihir000777&show_icons=true&theme=radical&hide_border=true&count_private=true&include_all_commits=true" />
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=mihir000777&theme=radical&hide_border=true" />
+<img width="48%" src="https://github-readme-stats.vercel.app/api?username=mihir000777&show_icons=true&theme=radical&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github" />
+<img width="48%" src="https://streak-stats.demolab.com?user=mihir000777&theme=radical&hide_border=true" />
 
 <br/><br/>
 
-<img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mihir000777&layout=donut-vertical&theme=radical&hide_border=true&langs_count=6" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mihir000777&layout=donut&theme=radical&hide_border=true&langs_count=8" width="40%" />
 
 </div>
 
@@ -109,7 +141,7 @@ const mihir = {
 
 ---
 
-## 📈 Contribution Graph
+## 📈 Activity Graph
 
 <div align="center">
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=mihir000777&theme=tokyo-night&hide_border=true&area=true&custom_title=Mihir's%20Contribution%20Graph" width="100%" />
@@ -117,37 +149,40 @@ const mihir = {
 
 ---
 
-## 🐍 My Contributions
+## 🐍 Contribution Snake
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mihir000777/mihir000777/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mihir000777/mihir000777/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/mihir000777/mihir000777/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mihir000777/mihir000777/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mihir000777/mihir000777/output/github-contribution-grid-snake.svg" />
+  <img alt="Snake animation" src="https://raw.githubusercontent.com/mihir000777/mihir000777/output/github-contribution-grid-snake-dark.svg" />
 </picture>
 </div>
 
 ---
 
-## 🎯 2026 Goals
+## 🎯 Goals — 2026
 
-- [ ] 🚀 Deploy microservices on AWS ECS/Fargate
-- [ ] 🐳 Master Docker Compose & Kubernetes
-- [ ] 📡 Build a Kafka event-driven system
-- [ ] 🤖 Ship a production Spring AI app
-- [ ] ⭐ Hit 100 GitHub stars across projects
-- [x] ✅ Build BMSIT Bazaar
-- [x] ✅ Learn Spring Boot & Spring AI
-- [x] ✅ Deploy Firebase production apps
+```
+ ✅ Built BMSIT Bazaar (campus marketplace)
+ ✅ Mastered Spring Boot & Spring Security  
+ ✅ Deployed Firebase production apps
+ ✅ Integrated Spring AI with local LLMs
+ 🔄 AWS deployment (EC2 · S3 · RDS · ECS)
+ 🔄 Docker Compose & Kubernetes
+ 📌 Kafka event-driven architecture
+ 📌 100 GitHub stars across projects
+ 📌 Land a killer Backend internship
+```
 
 ---
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&animation=twinkling" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:10b981,50:06b6d4,100:8b5cf6&height=130&section=footer&animation=fadeIn" width="100%" />
 
-*"Code is like humor. When you have to explain it, it's bad."* — Cory House
+*"First, solve the problem. Then, write the code."*
 
-**Made with 💜 by Mihir Govind · Bengaluru, India 🇮🇳**
+**💜 Mihir Govind · Bengaluru, India 🇮🇳 · 2026**
 
 </div>
