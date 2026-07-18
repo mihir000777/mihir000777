@@ -1,245 +1,182 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 280" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 380" width="1500" height="380">
   <defs>
-    <!-- Background Gradient -->
-    <radialGradient id="bg-glow" cx="50%" cy="50%" r="60%">
-      <stop offset="0%" stop-color="#120e2e" />
-      <stop offset="60%" stop-color="#05050a" />
-      <stop offset="100%" stop-color="#020205" />
-    </radialGradient>
-
-    <!-- Neon Gradients -->
-    <linearGradient id="neon-cyan" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#06b6d4" />
-      <stop offset="100%" stop-color="#0891b2" />
-    </linearGradient>
-    <linearGradient id="neon-purple" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#d946ef" />
-      <stop offset="100%" stop-color="#8b5cf6" />
-    </linearGradient>
-    <linearGradient id="cyan-purple" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#06b6d4" />
-      <stop offset="50%" stop-color="#a855f7" />
-      <stop offset="100%" stop-color="#d946ef" />
+    <!-- Background gradient -->
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="#0a0118"/>
+      <stop offset="45%" stop-color="#050b1a"/>
+      <stop offset="100%" stop-color="#001a14"/>
     </linearGradient>
 
-    <!-- Glow Filters -->
-    <filter id="glow-cyan" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="4" result="blur" />
+    <!-- Name gradient: purple → cyan → green -->
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#c084fc"/>
+      <stop offset="50%"  stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#34d399"/>
+    </linearGradient>
+
+    <!-- Horizontal scan line gradient -->
+    <linearGradient id="scanGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#8b5cf6" stop-opacity="0"/>
+      <stop offset="30%"  stop-color="#8b5cf6"/>
+      <stop offset="70%"  stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#10b981" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Separator line gradient -->
+    <linearGradient id="sepGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#8b5cf6" stop-opacity="0"/>
+      <stop offset="20%"  stop-color="#8b5cf6"/>
+      <stop offset="80%"  stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#10b981" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Glow filter for name — tight, sharp -->
+    <filter id="nameGlow" x="-10%" y="-40%" width="120%" height="180%">
+      <feGaussianBlur stdDeviation="3" result="blur1"/>
       <feMerge>
-        <feMergeNode in="blur" />
-        <feMergeNode in="SourceGraphic" />
-      </feMerge>
-    </filter>
-    <filter id="glow-purple" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="6" result="blur" />
-      <feMerge>
-        <feMergeNode in="blur" />
-        <feMergeNode in="SourceGraphic" />
-      </feMerge>
-    </filter>
-    <filter id="glow-intense" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="8" result="blur1" />
-      <feGaussianBlur stdDeviation="3" result="blur2" />
-      <feMerge>
-        <feMergeNode in="blur1" />
-        <feMergeNode in="blur2" />
-        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="blur1"/>
+        <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
 
-    <!-- Grid Pattern -->
-    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
-      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#1e1b4b" stroke-width="0.5" opacity="0.3"/>
+    <!-- Soft orb glow -->
+    <filter id="orbGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="18" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Dot grid pattern -->
+    <pattern id="dots" x="0" y="0" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.9" fill="#1a2235"/>
     </pattern>
+
+    <!-- CSS animations -->
+    <style>
+      .cursor { animation: blink 1s step-end infinite; }
+      @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
+
+      .p1 { animation: float1 3.2s ease-in-out infinite; }
+      .p2 { animation: float2 4.0s ease-in-out infinite; }
+      .p3 { animation: float3 2.8s ease-in-out infinite; }
+      .p4 { animation: float4 3.6s ease-in-out infinite; }
+      .p5 { animation: float5 5.0s ease-in-out infinite; }
+      .p6 { animation: float6 3.8s ease-in-out infinite; }
+
+      @keyframes float1 { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-18px)} }
+      @keyframes float2 { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-14px)} }
+      @keyframes float3 { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-20px)} }
+      @keyframes float4 { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-12px)} }
+      @keyframes float5 { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-16px)} }
+      @keyframes float6 { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-22px)} }
+
+      .scan { animation: scan 5s linear infinite; }
+      @keyframes scan { 0%{transform:translateY(-10px);opacity:0} 10%{opacity:0.7} 90%{opacity:0.7} 100%{transform:translateY(390px);opacity:0} }
+
+      .subtitleFade { animation: fadeIn 2s ease 0.5s both; }
+      .tagsFade { animation: fadeIn 2s ease 1s both; }
+      .terminalFade { animation: fadeIn 2s ease 1.5s both; }
+      @keyframes fadeIn { from{opacity:0;transform:translateY(8px)} to{opacity:1;transform:translateY(0)} }
+    </style>
   </defs>
 
-  <style>
-    /* CSS Animations */
-    @keyframes pulse {
-      0% { opacity: 0.3; }
-      50% { opacity: 0.8; }
-      100% { opacity: 0.3; }
-    }
-    @keyframes grid-travel {
-      0% { transform: translateY(0); }
-      100% { transform: translateY(30px); }
-    }
-    @keyframes flicker {
-      0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
-        opacity: 0.99;
-        filter: drop-shadow(0 0 8px rgba(6, 182, 212, 0.6)) drop-shadow(0 0 20px rgba(168, 85, 247, 0.4));
-      }
-      20%, 24%, 55% {
-        opacity: 0.4;
-        filter: none;
-      }
-    }
-    @keyframes float {
-      0% { transform: translateY(0px) rotate(0deg); }
-      50% { transform: translateY(-8px) rotate(1deg); }
-      100% { transform: translateY(0px) rotate(0deg); }
-    }
-    @keyframes scanner {
-      0% { transform: translateY(0px); opacity: 0; }
-      10% { opacity: 0.8; }
-      90% { opacity: 0.8; }
-      100% { transform: translateY(280px); opacity: 0; }
-    }
-    @keyframes dash {
-      to {
-        stroke-dashoffset: -40;
-      }
-    }
-    @keyframes rotate-slow {
-      from { transform: rotate(0deg); }
-      to { transform: rotate(360deg); }
-    }
+  <!-- ── BACKGROUND ── -->
+  <rect width="1500" height="380" fill="url(#bgGrad)"/>
+  <rect width="1500" height="380" fill="url(#dots)" opacity="0.55"/>
 
-    /* Style Classes */
-    .bg { fill: url(#bg-glow); }
-    .grid-bg { fill: url(#grid); }
-    .animated-grid {
-      animation: grid-travel 4s linear infinite;
-    }
-    .neon-text-title {
-      font-family: 'Segoe UI', -apple-system, Roboto, sans-serif;
-      font-weight: 900;
-      font-size: 42px;
-      fill: #ffffff;
-      letter-spacing: 6px;
-      animation: flicker 6s infinite alternate;
-    }
-    .neon-text-subtitle {
-      font-family: 'Courier New', Courier, monospace;
-      font-weight: bold;
-      font-size: 16px;
-      fill: #06b6d4;
-      letter-spacing: 5px;
-    }
-    .scan-line {
-      stroke: url(#neon-cyan);
-      stroke-width: 1.5;
-      opacity: 0.5;
-      filter: url(#glow-cyan);
-      animation: scanner 5s linear infinite;
-    }
-    .floating-box {
-      animation: float 6s ease-in-out infinite;
-    }
-    .floating-box-delayed {
-      animation: float 8s ease-in-out infinite;
-      animation-delay: -3s;
-    }
-    .tech-node {
-      fill: #020205;
-      stroke: url(#cyan-purple);
-      stroke-width: 2;
-    }
-    .pulse-glow {
-      animation: pulse 2s infinite ease-in-out;
-    }
-    .connecting-line {
-      stroke: url(#cyan-purple);
-      stroke-width: 1.5;
-      stroke-dasharray: 8 4;
-      animation: dash 2s linear infinite;
-    }
-    .gear {
-      transform-origin: center;
-      animation: rotate-slow 20s linear infinite;
-    }
-  </style>
+  <!-- ── GLOW ORBS ── -->
+  <ellipse cx="120" cy="190" rx="160" ry="160" fill="#8b5cf6" opacity="0.13" filter="url(#orbGlow)"/>
+  <ellipse cx="1380" cy="190" rx="160" ry="160" fill="#10b981" opacity="0.13" filter="url(#orbGlow)"/>
+  <ellipse cx="750" cy="155" rx="320" ry="110" fill="#06b6d4" opacity="0.04" filter="url(#orbGlow)"/>
 
-  <!-- Background -->
-  <rect width="900" height="280" class="bg" />
+  <!-- ── ANIMATED SCAN LINE ── -->
+  <rect class="scan" x="0" y="0" width="1500" height="2.5" fill="url(#scanGrad)" opacity="0.75"/>
 
-  <!-- Animated Grid Overlay -->
-  <g class="animated-grid">
-    <rect width="900" height="310" y="-30" class="grid-bg" />
+  <!-- ── CORNER BRACKETS ── -->
+  <!-- top-left -->
+  <line x1="0"    y1="0"  x2="70"   y2="0"   stroke="#8b5cf6" stroke-width="3.5"/>
+  <line x1="0"    y1="0"  x2="0"    y2="70"  stroke="#8b5cf6" stroke-width="3.5"/>
+  <!-- top-right -->
+  <line x1="1500" y1="0"  x2="1430" y2="0"   stroke="#10b981" stroke-width="3.5"/>
+  <line x1="1500" y1="0"  x2="1500" y2="70"  stroke="#10b981" stroke-width="3.5"/>
+  <!-- bottom-left -->
+  <line x1="0"    y1="380" x2="70"   y2="380" stroke="#06b6d4" stroke-width="3.5"/>
+  <line x1="0"    y1="380" x2="0"    y2="310" stroke="#06b6d4" stroke-width="3.5"/>
+  <!-- bottom-right -->
+  <line x1="1500" y1="380" x2="1430" y2="380" stroke="#c084fc" stroke-width="3.5"/>
+  <line x1="1500" y1="380" x2="1500" y2="310" stroke="#c084fc" stroke-width="3.5"/>
+
+  <!-- ── BACKGROUND DECORATIVE TEXT ── -->
+  <text x="55"  y="230" font-family="monospace" font-size="200" fill="#8b5cf6" opacity="0.07">{</text>
+  <text x="1332" y="228" font-family="monospace" font-size="200" fill="#10b981" opacity="0.07">}</text>
+
+  <!-- ── TOP-LEFT CODE COMMENT ── -->
+  <text x="46" y="46" font-family="monospace" font-size="13" fill="#4a5568" opacity="0.9">// mihir.config.json</text>
+  <text x="46" y="66" font-family="monospace" font-size="12" fill="#4a5568" opacity="0.7">
+    <tspan fill="#f472b6" opacity="0.8">"stack"</tspan><tspan fill="#64748b">: </tspan><tspan fill="#86efac" opacity="0.8">["Java","Spring","Node.js","Docker"]</tspan>
+  </text>
+
+  <!-- ── TOP-RIGHT BADGE ── -->
+  <rect x="1320" y="30" rx="6" ry="6" width="148" height="30" fill="#0d1117" stroke="#10b981" stroke-width="1" opacity="0.9"/>
+  <text x="1394" y="50" font-family="monospace" font-size="12" fill="#34d399" text-anchor="middle">● AVAILABLE TO HIRE</text>
+
+  <!-- ── MAIN NAME — gradient ── -->
+  <text x="750" y="178"
+    text-anchor="middle"
+    font-family="'Arial Black', Impact, sans-serif"
+    font-size="92"
+    font-weight="900"
+    fill="url(#nameGrad)"
+    filter="url(#nameGlow)">MIHIR GOVIND</text>
+
+  <!-- ── SUBTITLE ── -->
+  <text class="subtitleFade" x="750" y="224"
+    text-anchor="middle"
+    font-family="monospace"
+    font-size="21"
+    fill="#94a3b8"
+    letter-spacing="5">Backend Developer  ·  India 🇮🇳</text>
+
+  <!-- ── SEPARATOR LINE ── -->
+  <line x1="350" y1="245" x2="1150" y2="245" stroke="url(#sepGrad)" stroke-width="1" opacity="0.7"/>
+
+  <!-- ── TECH TAGS ── -->
+  <g class="tagsFade" font-family="monospace" font-size="14.5" text-anchor="middle">
+    <text x="430"  y="276" fill="#c084fc">Java</text>
+    <text x="475"  y="276" fill="#475569">·</text>
+    <text x="540"  y="276" fill="#22d3ee">Spring Boot</text>
+    <text x="620"  y="276" fill="#475569">·</text>
+    <text x="685"  y="276" fill="#34d399">Node.js</text>
+    <text x="745"  y="276" fill="#475569">·</text>
+    <text x="800"  y="276" fill="#c084fc">Docker</text>
+    <text x="858"  y="276" fill="#475569">·</text>
+    <text x="920"  y="276" fill="#22d3ee">Firebase</text>
+    <text x="988"  y="276" fill="#475569">·</text>
+    <text x="1040" y="276" fill="#34d399">Redis</text>
+    <text x="1088" y="276" fill="#475569">·</text>
+    <text x="1128" y="276" fill="#c084fc">AWS</text>
   </g>
 
-  <!-- Tech Design Elements (Left & Right Side Decorations) -->
-  <!-- Left Side: Code Node Architecture -->
-  <g class="floating-box" transform="translate(20, 20)">
-    <!-- Circuit lines -->
-    <path d="M 20 60 L 90 60 L 120 110 M 90 60 L 90 160 L 40 210" fill="none" class="connecting-line" />
-    
-    <!-- Central Node -->
-    <circle cx="90" cy="60" r="16" class="tech-node" />
-    <circle cx="90" cy="60" r="6" fill="#06b6d4" class="pulse-glow" filter="url(#glow-cyan)" />
-    
-    <!-- Secondary Nodes -->
-    <circle cx="20" cy="60" r="10" class="tech-node" />
-    <circle cx="20" cy="60" r="3" fill="#d946ef" />
-
-    <circle cx="120" cy="110" r="12" class="tech-node" />
-    <circle cx="120" cy="110" r="4" fill="#a855f7" />
-
-    <circle cx="40" cy="210" r="12" class="tech-node" />
-    <circle cx="40" cy="210" r="4" fill="#06b6d4" />
-    
-    <!-- Code Bracket Graphic -->
-    <text x="15" y="140" font-family="'Courier New', monospace" font-size="28" fill="#d946ef" opacity="0.3" font-weight="bold">{ }</text>
-  </g>
-
-  <!-- Right Side: Rotating Core System -->
-  <g class="floating-box-delayed" transform="translate(750, 30)">
-    <!-- Circuit connections -->
-    <path d="M 110 90 L 40 90 L 10 140 M 40 90 L 40 10" fill="none" class="connecting-line" />
-    
-    <!-- Rotating Gear/Core -->
-    <g transform="translate(110, 90)">
-      <circle cx="0" cy="0" r="40" fill="none" stroke="#d946ef" stroke-dasharray="10 6" stroke-width="1.5" opacity="0.4" class="gear" />
-      <circle cx="0" cy="0" r="30" fill="none" stroke="#06b6d4" stroke-dasharray="4 4" stroke-width="2" class="gear" style="animation-direction: reverse; animation-duration: 10s;" />
-      <circle cx="0" cy="0" r="18" class="tech-node" />
-      <polygon points="0,-6 5,4 -5,4" fill="#d946ef" class="pulse-glow" filter="url(#glow-purple)" transform="scale(1.2)" />
-    </g>
-
-    <!-- Secondary Nodes -->
-    <circle cx="10" cy="140" r="10" class="tech-node" />
-    <circle cx="10" cy="140" r="3" fill="#06b6d4" />
-
-    <circle cx="40" cy="10" r="8" class="tech-node" />
-    <circle cx="40" cy="10" r="2.5" fill="#a855f7" />
-    
-    <!-- Binary Stream Graphic -->
-    <text x="30" y="200" font-family="'Courier New', monospace" font-size="11" fill="#06b6d4" opacity="0.25">
-      <tspan x="30" dy="0">01001010</tspan>
-      <tspan x="30" dy="14">01000001</tspan>
-      <tspan x="30" dy="14">01010110</tspan>
-      <tspan x="30" dy="14">01000001</tspan>
+  <!-- ── TERMINAL COMMAND LINE ── -->
+  <g class="terminalFade">
+    <text x="750" y="332"
+      text-anchor="middle"
+      font-family="monospace"
+      font-size="15"
+      fill="#475569">
+      <tspan fill="#34d399">mihir@github</tspan><tspan fill="#64748b">:</tspan><tspan fill="#22d3ee">~/projects</tspan><tspan fill="#94a3b8"> $ </tspan><tspan fill="#e2e8f0">./build-awesome-things --mode production</tspan>
     </text>
+    <!-- Blinking cursor -->
+    <rect class="cursor" x="1058" y="317" width="9" height="17" fill="#10b981"/>
   </g>
 
-  <!-- Glowing Scanner Line -->
-  <line x1="0" y1="0" x2="900" y2="0" class="scan-line" />
-
-  <!-- Center Content -->
-  <!-- Outer Bezel Card Background (Glassmorphism look) - WIDENED TO 540PX -->
-  <rect x="180" y="55" width="540" height="170" rx="20" fill="#070712" stroke="url(#cyan-purple)" stroke-width="1.5" opacity="0.85" filter="url(#glow-purple)" />
-  <rect x="185" y="60" width="530" height="160" rx="15" fill="#030308" opacity="0.9" />
-
-  <!-- Terminal window dots on outer border of center card -->
-  <circle cx="205" cy="78" r="5" fill="#ef4444" opacity="0.8" />
-  <circle cx="220" cy="78" r="5" fill="#eab308" opacity="0.8" />
-  <circle cx="235" cy="78" r="5" fill="#22c55e" opacity="0.8" />
-
-  <!-- Terminal Label -->
-  <text x="260" y="82" font-family="'Courier New', monospace" font-size="11" fill="#475569" letter-spacing="1">mihir@backend-server:~</text>
-
-  <!-- Main Text -->
-  <g transform="translate(450, 142)">
-    <!-- Name (Font size reduced to 42px and letter spacing to 6px to prevent overflow) -->
-    <text text-anchor="middle" class="neon-text-title">MIHIR GOVIND</text>
-    
-    <!-- Subtitle / Role -->
-    <text y="40" text-anchor="middle" class="neon-text-subtitle">BACKEND DEVELOPER</text>
-    
-    <!-- Decorative brackets -->
-    <path d="M -210 -40 L -230 -40 L -230 15 L -210 15" fill="none" stroke="url(#neon-cyan)" stroke-width="2.5" opacity="0.7" />
-    <path d="M 210 -40 L 230 -40 L 230 15 L 210 15" fill="none" stroke="url(#neon-purple)" stroke-width="2.5" opacity="0.7" />
-  </g>
-
-  <!-- Bottom stats highlight line -->
-  <path d="M 230 208 L 670 208" stroke="url(#cyan-purple)" stroke-width="1" stroke-linecap="round" opacity="0.5" />
+  <!-- ── FLOATING PARTICLES ── -->
+  <circle class="p1" cx="205" cy="110" r="2.5" fill="#c084fc" opacity="0.65"/>
+  <circle class="p2" cx="380" cy="295" r="2"   fill="#22d3ee" opacity="0.55"/>
+  <circle class="p3" cx="1120" cy="88"  r="2.5" fill="#34d399" opacity="0.65"/>
+  <circle class="p4" cx="1300" cy="275" r="2"   fill="#c084fc" opacity="0.55"/>
+  <circle class="p5" cx="540"  cy="55"  r="1.8" fill="#22d3ee" opacity="0.45"/>
+  <circle class="p6" cx="960"  cy="338" r="1.8" fill="#f472b6" opacity="0.45"/>
 </svg>

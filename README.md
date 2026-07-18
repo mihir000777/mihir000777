@@ -1,7 +1,7 @@
 <div align="center">
 
-<!-- ═══════════ ANIMATED HEADER ═══════════ -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8b5cf6,50:06b6d4,100:10b981&height=230&section=header&text=Mihir%20Govind&fontSize=78&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Backend%20Developer%20%7C%20Spring%20Boot%20%7C%20Microservices%20%7C%20India%20%F0%9F%87%AE%F0%9F%87%B3&descAlignY=56&descSize=18" width="100%" />
+<!-- ═══════════ CUSTOM BANNER ═══════════ -->
+<img src="./banner.svg" width="100%" alt="Mihir Govind — Backend Developer" />
 
 <br/>
 
