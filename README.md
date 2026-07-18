@@ -1,7 +1,7 @@
 <!--
 ========================================================================================
    CYBERPUNK GLASSMORPHISM PROFILE | MIHIR GOVIND
-   PRODUCTION READY CONDENSED PORTFOLIO README
+   PRODUCTION READY PORTFOLIO FEATURING BMSIT BAZAAR & CONTRIBUTION SNAKE
 ========================================================================================
 -->
 
@@ -12,7 +12,7 @@
   <br/>
   
   <!-- Sub-Header Typing Animation -->
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=06B6D4&background=00000000&center=true&vCenter=true&width=600&height=40&lines=Backend+Developer;Java+%26+Spring+Boot;Microservices+Architect;Docker+%26+Cloud+Systems" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=06B6D4&background=00000000&center=true&vCenter=true&width=600&height=40&lines=Backend+Developer;Java+%26+Spring+Boot;Microservices+Architect;Full+Stack+Firebase+%26+Node.js" alt="Typing SVG" />
 
   <!-- Metric Badges Row -->
   <p align="center">
@@ -68,8 +68,8 @@
   <span style="color: #06b6d4;">"name"</span>: <span style="color: #e2e8f0;">"Mihir Govind"</span>,
   <span style="color: #06b6d4;">"role"</span>: <span style="color: #e2e8f0;">"Backend Developer"</span>,
   <span style="color: #06b6d4;">"location"</span>: <span style="color: #e2e8f0;">"India 🇮🇳"</span>,
-  <span style="color: #06b6d4;">"bio"</span>: <span style="color: #e2e8f0;">"Passionate Backend Developer focused on building scalable, 
-         fault-tolerant microservices and learning distributed system architectures."</span>
+  <span style="color: #06b6d4;">"bio"</span>: <span style="color: #e2e8f0;">"Passionate Backend &amp; Full Stack Developer focused on building scalable, 
+         fault-tolerant microservices, Firebase ecosystems, and secure student platforms."</span>
 }</pre>
     <span style="color: #38bdf8;">guest@mihir-govind:~$</span> <span style="color: #f1f5f9;">systeminfo --learning</span>
     <p style="color: #10b981; margin: 8px 0 15px 15px; font-size: 13px;">
@@ -104,12 +104,13 @@
     </td>
   </tr>
   <tr style="background: #05050a; border: 1px solid #8b5cf6; border-radius: 8px;">
-    <td style="padding: 12px; font-family: monospace; font-weight: bold; color: #8b5cf6;" width="20%">BACKEND</td>
+    <td style="padding: 12px; font-family: monospace; font-weight: bold; color: #8b5cf6;" width="20%">BACKEND &amp; INFRA</td>
     <td style="padding: 12px;" width="80%">
       <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white" />
       <img src="https://img.shields.io/badge/Spring_AI-6DB33F?style=for-the-badge&logo=spring&logoColor=white" />
       <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
       <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" />
+      <img src="https://img.shields.io/badge/Firebase_Platform-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" />
     </td>
   </tr>
   <tr style="background: #05050a; border: 1px solid #d946ef; border-radius: 8px;">
@@ -131,14 +132,14 @@
     </td>
   </tr>
   <tr style="background: #05050a; border: 1px solid #8b5cf6; border-radius: 8px;">
-    <td style="padding: 12px; font-family: monospace; font-weight: bold; color: #8b5cf6;" width="20%">TOOLS &amp; CLOUD</td>
+    <td style="padding: 12px; font-family: monospace; font-weight: bold; color: #8b5cf6;" width="20%">TOOLS &amp; SERVICES</td>
     <td style="padding: 12px;" width="80%">
       <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" />
       <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-      <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+      <img src="https://img.shields.io/badge/Razorpay-022B5C?style=for-the-badge&logo=razorpay&logoColor=white" />
+      <img src="https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=cloudinary&logoColor=white" />
       <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
       <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" />
-      <img src="https://img.shields.io/badge/IntelliJ_IDEA-000000?style=for-the-badge&logo=intellij-idea&logoColor=white" />
     </td>
   </tr>
 </table>
@@ -151,39 +152,52 @@
 
 ## 📁 FEATURED PORTFOLIO PROJECTS
 
-### 🏢 1. Rural EdTech Gateway
-*   **Concept:** A low-bandwidth gateway designed for remote offline-first educational nodes.
-*   **Tech Stack:** Spring Boot, Spring Security JWT, PostgreSQL, Redis.
-*   **Design Highlight:** Cache-Aside database reads reducing average database latency to <5ms.
+### 🛍️ 1. BMSIT Bazaar (Primary Showcase)
+> **An exclusive, secure peer-to-peer student marketplace built specifically for the BMS Institute of Technology and Management (BMSIT) community.**
 
-### ⏳ 2. DropWait
-*   **Concept:** A real-time high-throughput customer queue management dashboard.
-*   **Tech Stack:** Node.js, Express, MongoDB, Redis Sorted Sets (`ZSET`), Socket.io.
-*   **Design Highlight:** Low-latency waitlist rank calculations utilizing memory-efficient sorted indexes.
+BMSIT Bazaar allows students to securely buy, sell, and request doorstep delivery of study materials, electronics, and hostel gear within the campus network.
 
-### 📡 3. Backend REST APIs
-*   **Concept:** Enterprise-ready starter project featuring secure OAuth2 auth models.
-*   **Tech Stack:** Java, Spring Boot, Spring AI (OpenAI API connection boilerplate).
+#### 🔒 Key Features
+*   **Campus-Only Verification:** Domain restricted login exclusively matching `@bmsit.in` institutional emails.
+*   **Media Quality Constraints:** Requires exactly 3 photos and an anti-fraud 15MB product video stream via **Cloudinary** for admin verification.
+*   **Razorpay Paywall Model:** Contact details of the seller are locked behind a tiered platform fee (ranging from ₹10 to ₹40) dynamically resolved using Razorpay checkout flows.
+*   **Haversine Distance Engine:** Doorstep delivery (+₹20) is offered only if GPS distance calculations verify buyer and seller coordinates are within a **5km radius** of college campus coordinates (`13.13406`, `77.56844`).
+*   **Listing Decay Reminders:** Listings remaining unsold for >5 days alert the seller to reduce prices to boost dashboard priority.
+*   **Empty search logging:** Searches resulting in 0 matches are recorded on a wishlist registry database to inform sellers of current student demand trends.
 
-### 🛰️ Core Microservices System Blueprint
+#### 📊 BMSIT Bazaar System Architecture
 ```mermaid
 graph TD
-    Client([💻 Client]) -->|API Gateway| GW[🛡️ Spring Cloud Gateway]
-    GW -->|Validate Token| Auth[🔑 Auth Service]
-    GW -->|Forward Requests| App[⚙️ EdTech Service]
-    GW -->|Manage Line| Queue[⏳ DropWait Service]
-    
-    App -->|Check Cache| Redis[(⚡ Redis Cache)]
-    App -->|Persist Transaction| SQL[(🛢️ PostgreSQL)]
-    Queue -->|Push Waitlist| Mongo[(🛢️ MongoDB)]
-    
+    Client([📱 React Client]) -->|Verify Domain| Auth[🔥 Firebase Auth]
+    Client -->|Firestore Query| DB[(🗢 Firestore NoSQL DB)]
+    Client -->|Stream Verification Video| Cloudinary[☁️ Cloudinary Storage]
+    Client -->|Platform Fee Checkout| Razorpay[💳 Razorpay Gateway]
+
+    DB -.->|Distance check| Haversine[🌐 Haversine Formula 5km Center Radius]
+    DB -.->| Listing age > 5 days| Decay[⏳ Price Decay Engine]
+    DB -.->| Search results = 0 | Registry[📋 Wishlist Log collection]
+
     classDef cyberCyan fill:#000000,stroke:#06b6d4,stroke-width:2px,color:#fff;
     classDef cyberPurple fill:#000000,stroke:#8b5cf6,stroke-width:2px,color:#fff;
     classDef database fill:#111,stroke:#64748b,stroke-width:1.5px,color:#cbd5e1;
-    class Client,GW,App cyberCyan;
-    class Auth,Queue cyberPurple;
-    class Redis,SQL,Mongo database;
+    class Client cyberCyan;
+    class Auth,Cloudinary,Razorpay cyberPurple;
+    class DB database;
+    class Haversine,Decay,Registry cyberCyan;
 ```
+
+---
+
+### ⏳ 2. DropWait
+*   **Concept:** Real-time customer queue and waitlist registry server.
+*   **Tech Stack:** Node.js, Express.js, MongoDB, Redis Sorted Sets (`ZSET`), Socket.io.
+*   **Design Highlight:** Multi-client wait placements managed asynchronously using Redis in memory to support sub-millisecond status rank updates.
+
+---
+
+### 📡 3. Backend REST APIs
+*   **Concept:** Standard enterprise REST API template featuring rate-limiting and OpenAI prompt interfaces.
+*   **Tech Stack:** Java, Spring Boot, Spring AI.
 
 <br/>
 <img src="./divider.svg" width="100%" alt="Section Divider" />
@@ -219,7 +233,7 @@ graph TD
   <br/><br/>
 
   <!-- Contribution Snake Section -->
-  <h3>🐍 CONTRIBUTION SNAKE</h3>
+  <h3>🐍 CONTRIBUTION SNAKE ANIMATION</h3>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mihir000777/mihir000777/output/github-contribution-grid-snake-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mihir000777/mihir000777/output/github-contribution-grid-snake.svg">
