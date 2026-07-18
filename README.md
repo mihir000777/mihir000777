@@ -19,9 +19,6 @@
     <a href="https://github.com/mihir000777">
       <img src="https://img.shields.io/github/followers/mihir000777?label=FOLLOWERS&style=for-the-badge&color=8b5cf6&logo=github&logoColor=white" alt="Followers Badge"/>
     </a>
-    <a href="https://github.com/mihir000777?tab=stars">
-      <img src="https://img.shields.io/github/stars-of-user/mihir000777?label=TOTAL%20STARS&style=for-the-badge&color=06b6d4&logo=github&logoColor=white" alt="Stars Badge"/>
-    </a>
     <img src="https://komarev.com/ghpvc/?username=mihir000777&color=8b5cf6&style=for-the-badge&label=VISITORS" alt="Visitor Counter"/>
   </p>
 
@@ -50,39 +47,39 @@
 
 ## 🖥️ SYSTEM TERMINAL: ABOUT_ME.sh
 
-<div style="background-color: #05050a; border: 1.5px solid #8b5cf6; border-radius: 12px; box-shadow: 0 0 20px rgba(139, 92, 246, 0.15); font-family: 'Fira Code', 'Courier New', monospace; padding: 20px; color: #cbd5e1; line-height: 1.5;">
+<div style="background-color: #030a05; border: 1.5px solid #10b981; border-radius: 12px; box-shadow: 0 0 20px rgba(16, 185, 129, 0.25); font-family: 'Fira Code', 'Courier New', monospace; padding: 20px; color: #34d399; line-height: 1.5; text-shadow: 0 0 5px rgba(52, 211, 153, 0.3);">
   <!-- Terminal Header -->
-  <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1.5px solid #1e1b4b; padding-bottom: 10px; margin-bottom: 15px;">
+  <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1.5px solid #064e3b; padding-bottom: 10px; margin-bottom: 15px;">
     <div style="display: flex; gap: 8px;">
       <span style="display: inline-block; width: 12px; height: 12px; border-radius: 50%; background-color: #ef4444;"></span>
       <span style="display: inline-block; width: 12px; height: 12px; border-radius: 50%; background-color: #eab308;"></span>
-      <span style="display: inline-block; width: 12px; height: 12px; border-radius: 50%; background-color: #22c55e;"></span>
+      <span style="display: inline-block; width: 12px; height: 12px; border-radius: 50%; background-color: #10b981;"></span>
     </div>
-    <div style="color: #64748b; font-size: 11px; letter-spacing: 1px;">guest@mihir-govind-server: ~ (bash)</div>
+    <div style="color: #047857; font-size: 11px; letter-spacing: 1px;">guest@mihir-govind-server: ~ (bash)</div>
   </div>
   <!-- Terminal Output -->
   <div>
-    <span style="color: #38bdf8;">guest@mihir-govind:~$</span> <span style="color: #f1f5f9;">cat profile.json</span>
-    <pre style="color: #a855f7; margin: 8px 0 15px 15px; font-family: 'Fira Code', monospace; font-size: 13px; line-height: 1.4;">
+    <span style="color: #059669;">guest@mihir-govind:~$</span> <span style="color: #ffffff;">cat profile.json</span>
+    <pre style="color: #34d399; margin: 8px 0 15px 15px; font-family: 'Fira Code', monospace; font-size: 13px; line-height: 1.4; text-shadow: 0 0 5px rgba(52, 211, 153, 0.5);">
 {
-  <span style="color: #06b6d4;">"name"</span>: <span style="color: #e2e8f0;">"Mihir Govind"</span>,
-  <span style="color: #06b6d4;">"role"</span>: <span style="color: #e2e8f0;">"Backend Developer"</span>,
-  <span style="color: #06b6d4;">"location"</span>: <span style="color: #e2e8f0;">"India 🇮🇳"</span>,
-  <span style="color: #06b6d4;">"bio"</span>: <span style="color: #e2e8f0;">"Passionate Backend &amp; Full Stack Developer focused on building scalable, 
+  <span style="color: #10b981;">"name"</span>: <span style="color: #a7f3d0;">"Mihir Govind"</span>,
+  <span style="color: #10b981;">"role"</span>: <span style="color: #a7f3d0;">"Backend Developer"</span>,
+  <span style="color: #10b981;">"location"</span>: <span style="color: #a7f3d0;">"India 🇮🇳"</span>,
+  <span style="color: #10b981;">"bio"</span>: <span style="color: #a7f3d0;">"Passionate Backend &amp; Full Stack Developer focused on building scalable, 
          fault-tolerant microservices, Firebase ecosystems, and secure student platforms."</span>
 }</pre>
-    <span style="color: #38bdf8;">guest@mihir-govind:~$</span> <span style="color: #f1f5f9;">systeminfo --learning</span>
-    <p style="color: #10b981; margin: 8px 0 15px 15px; font-size: 13px;">
-      &gt;&gt; ACTIVE_STUDY: Spring Boot ✦ Spring AI ✦ Microservices ✦ Docker ✦ Redis ✦ AWS ✦ System Design
+    <span style="color: #059669;">guest@mihir-govind:~$</span> <span style="color: #ffffff;">systeminfo --learning</span>
+    <p style="color: #a7f3d0; margin: 8px 0 15px 15px; font-size: 13px;">
+      <span style="color: #10b981;">&gt;&gt; ACTIVE_STUDY:</span> Spring Boot ✦ Spring AI ✦ Microservices ✦ Docker ✦ Redis ✦ AWS ✦ System Design
     </p>
-    <span style="color: #38bdf8;">guest@mihir-govind:~$</span> <span style="color: #f1f5f9;"><span style="animation: blink 1s step-end infinite;">_</span></span>
+    <span style="color: #059669;">guest@mihir-govind:~$</span> <span style="color: #ffffff;"><span style="animation: blink 1s step-end infinite;">_</span></span>
   </div>
 </div>
 
 <style>
   @keyframes blink {
     from, to { color: transparent }
-    50% { color: #06b6d4; }
+    50% { color: #10b981; }
   }
 </style>
 
@@ -98,48 +95,48 @@
   <tr style="background: #05050a; border: 1px solid #06b6d4; border-radius: 8px;">
     <td style="padding: 12px; font-family: monospace; font-weight: bold; color: #06b6d4;" width="20%">LANGUAGES</td>
     <td style="padding: 12px;" width="80%">
-      <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
-      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-      <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" />
+      <img src="https://img.shields.io/badge/Java-0a0a16?style=for-the-badge&logo=openjdk&logoColor=06b6d4" />
+      <img src="https://img.shields.io/badge/JavaScript-0a0a16?style=for-the-badge&logo=javascript&logoColor=06b6d4" />
+      <img src="https://img.shields.io/badge/SQL-0a0a16?style=for-the-badge&logo=postgresql&logoColor=06b6d4" />
     </td>
   </tr>
   <tr style="background: #05050a; border: 1px solid #8b5cf6; border-radius: 8px;">
     <td style="padding: 12px; font-family: monospace; font-weight: bold; color: #8b5cf6;" width="20%">BACKEND &amp; INFRA</td>
     <td style="padding: 12px;" width="80%">
-      <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white" />
-      <img src="https://img.shields.io/badge/Spring_AI-6DB33F?style=for-the-badge&logo=spring&logoColor=white" />
-      <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
-      <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" />
-      <img src="https://img.shields.io/badge/Firebase_Platform-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" />
+      <img src="https://img.shields.io/badge/Spring_Boot-0a0a16?style=for-the-badge&logo=spring-boot&logoColor=8b5cf6" />
+      <img src="https://img.shields.io/badge/Spring_AI-0a0a16?style=for-the-badge&logo=spring&logoColor=8b5cf6" />
+      <img src="https://img.shields.io/badge/Node.js-0a0a16?style=for-the-badge&logo=nodedotjs&logoColor=8b5cf6" />
+      <img src="https://img.shields.io/badge/Express.js-0a0a16?style=for-the-badge&logo=express&logoColor=8b5cf6" />
+      <img src="https://img.shields.io/badge/Firebase-0a0a16?style=for-the-badge&logo=firebase&logoColor=8b5cf6" />
     </td>
   </tr>
-  <tr style="background: #05050a; border: 1px solid #d946ef; border-radius: 8px;">
-    <td style="padding: 12px; font-family: monospace; font-weight: bold; color: #d946ef;" width="20%">DATABASES</td>
+  <tr style="background: #05050a; border: 1px solid #10b981; border-radius: 8px;">
+    <td style="padding: 12px; font-family: monospace; font-weight: bold; color: #10b981;" width="20%">DATABASES</td>
     <td style="padding: 12px;" width="80%">
-      <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
-      <img src="https://img.shields.io/badge/MySQL-00758F?style=for-the-badge&logo=mysql&logoColor=white" />
-      <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" />
-      <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" />
+      <img src="https://img.shields.io/badge/PostgreSQL-0a0a16?style=for-the-badge&logo=postgresql&logoColor=10b981" />
+      <img src="https://img.shields.io/badge/MySQL-0a0a16?style=for-the-badge&logo=mysql&logoColor=10b981" />
+      <img src="https://img.shields.io/badge/MongoDB-0a0a16?style=for-the-badge&logo=mongodb&logoColor=10b981" />
+      <img src="https://img.shields.io/badge/Redis-0a0a16?style=for-the-badge&logo=redis&logoColor=10b981" />
     </td>
   </tr>
   <tr style="background: #05050a; border: 1px solid #06b6d4; border-radius: 8px;">
     <td style="padding: 12px; font-family: monospace; font-weight: bold; color: #06b6d4;" width="20%">FRONTEND</td>
     <td style="padding: 12px;" width="80%">
-      <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-      <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
-      <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-      <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+      <img src="https://img.shields.io/badge/React-0a0a16?style=for-the-badge&logo=react&logoColor=06b6d4" />
+      <img src="https://img.shields.io/badge/Tailwind_CSS-0a0a16?style=for-the-badge&logo=tailwindcss&logoColor=06b6d4" />
+      <img src="https://img.shields.io/badge/HTML5-0a0a16?style=for-the-badge&logo=html5&logoColor=06b6d4" />
+      <img src="https://img.shields.io/badge/CSS3-0a0a16?style=for-the-badge&logo=css3&logoColor=06b6d4" />
     </td>
   </tr>
   <tr style="background: #05050a; border: 1px solid #8b5cf6; border-radius: 8px;">
     <td style="padding: 12px; font-family: monospace; font-weight: bold; color: #8b5cf6;" width="20%">TOOLS &amp; SERVICES</td>
     <td style="padding: 12px;" width="80%">
-      <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" />
-      <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-      <img src="https://img.shields.io/badge/Razorpay-022B5C?style=for-the-badge&logo=razorpay&logoColor=white" />
-      <img src="https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=cloudinary&logoColor=white" />
-      <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
-      <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" />
+      <img src="https://img.shields.io/badge/AWS-0a0a16?style=for-the-badge&logo=amazon-aws&logoColor=8b5cf6" />
+      <img src="https://img.shields.io/badge/Docker-0a0a16?style=for-the-badge&logo=docker&logoColor=8b5cf6" />
+      <img src="https://img.shields.io/badge/Razorpay-0a0a16?style=for-the-badge&logo=razorpay&logoColor=8b5cf6" />
+      <img src="https://img.shields.io/badge/Cloudinary-0a0a16?style=for-the-badge&logo=cloudinary&logoColor=8b5cf6" />
+      <img src="https://img.shields.io/badge/Linux-0a0a16?style=for-the-badge&logo=linux&logoColor=8b5cf6" />
+      <img src="https://img.shields.io/badge/Postman-0a0a16?style=for-the-badge&logo=postman&logoColor=8b5cf6" />
     </td>
   </tr>
 </table>
