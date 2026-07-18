@@ -10,27 +10,31 @@
 
 <br/><br/>
 
-<!-- ═══════════ PREMIUM TWO-TONE SOCIAL BADGES ═══════════ -->
-<a href="https://www.linkedin.com/in/mihir-govind/">
-  <img src="https://img.shields.io/badge/LinkedIn-mihir--govind-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117" />
-</a>&nbsp;
-<a href="mailto:mihirmm0455@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-mihirmm0455-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117" />
-</a>&nbsp;
-<a href="https://www.instagram.com/_mihir_govind_">
-  <img src="https://img.shields.io/badge/Instagram-_mihir__govind_-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=0d1117" />
-</a>&nbsp;
-<a href="https://discord.com/users/__.mihir.__">
-  <img src="https://img.shields.io/badge/Discord--.mihir.--5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=0d1117" />
-</a>
+<!-- ═══════════ SOCIAL BADGES ═══════════ -->
+<p>
+  <a href="https://www.linkedin.com/in/mihir-govind/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>&nbsp;
+  <a href="mailto:mihirmm0455@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>&nbsp;
+  <a href="https://www.instagram.com/_mihir_govind_">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
+  </a>&nbsp;
+  <a href="https://discord.com/users/__.mihir.__">
+    <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" />
+  </a>
+</p>
 
-<br/><br/>
+<br/>
 
-<!-- ═══════════ STATUS BADGES ═══════════ -->
-<img src="https://img.shields.io/badge/Based%20In-India%20🇮🇳-10b981?style=flat-square&labelColor=0d1117" />
-<img src="https://img.shields.io/badge/Role-Backend%20Developer-8b5cf6?style=flat-square&labelColor=0d1117" />
-<img src="https://img.shields.io/badge/Open%20To-Internships%20%26%20Collabs-06b6d4?style=flat-square&labelColor=0d1117" />
-<img src="https://komarev.com/ghpvc/?username=mihir000777&style=flat-square&color=blueviolet&label=Profile+Views" />
+<!-- ═══════════ INFO PILLS ═══════════ -->
+<p>
+  <img src="https://img.shields.io/badge/📍_Bengaluru,_India-0d1117?style=flat-square&color=10b981" />
+  <img src="https://img.shields.io/badge/💼_Backend_Developer-0d1117?style=flat-square&color=8b5cf6" />
+  <img src="https://img.shields.io/badge/🚀_Open_to_Internships-0d1117?style=flat-square&color=06b6d4" />
+  <img src="https://komarev.com/ghpvc/?username=mihir000777&style=flat-square&color=blueviolet&label=👁️+Views" />
+</p>
 
 </div>
 
