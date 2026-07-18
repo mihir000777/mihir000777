@@ -251,7 +251,6 @@ graph TD
 
 <table width="100%" style="border-collapse: collapse; border: none; background: transparent;">
   <tr style="border: none; background: transparent;">
-    
     <!-- LeetCode Card -->
     <td width="33%" style="border: none; padding: 5px;">
       <div style="background-color: #05050a; border: 1.5px solid #06b6d4; border-radius: 8px; box-shadow: 0 0 10px rgba(6, 182, 212, 0.1); padding: 15px; font-family: sans-serif; min-height: 180px;">
@@ -266,7 +265,6 @@ graph TD
         </div>
       </div>
     </td>
-
     <!-- Codewars Card -->
     <td width="33%" style="border: none; padding: 5px;">
       <div style="background-color: #05050a; border: 1.5px solid #8b5cf6; border-radius: 8px; box-shadow: 0 0 10px rgba(139, 92, 246, 0.1); padding: 15px; font-family: sans-serif; min-height: 180px;">
@@ -281,7 +279,6 @@ graph TD
         </div>
       </div>
     </td>
-
     <!-- Spotify Card -->
     <td width="33%" style="border: none; padding: 5px;">
       <div style="background-color: #05050a; border: 1.5px solid #d946ef; border-radius: 8px; box-shadow: 0 0 10px rgba(217, 70, 239, 0.1); padding: 15px; font-family: sans-serif; min-height: 180px;">
@@ -299,7 +296,6 @@ graph TD
         </div>
       </div>
     </td>
-
   </tr>
 </table>
 
