@@ -1,40 +1,36 @@
 <div align="center">
 
 <!-- ═══════════ ANIMATED HEADER ═══════════ -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8b5cf6,50:06b6d4,100:10b981&height=220&section=header&text=Mihir%20Govind&fontSize=75&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Backend%20Developer%20%7C%20Spring%20Boot%20%7C%20Microservices%20%7C%20India%20%F0%9F%87%AE%F0%9F%87%B3&descAlignY=58&descSize=17" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8b5cf6,50:06b6d4,100:10b981&height=230&section=header&text=Mihir%20Govind&fontSize=78&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Backend%20Developer%20%7C%20Spring%20Boot%20%7C%20Microservices%20%7C%20India%20%F0%9F%87%AE%F0%9F%87%B3&descAlignY=56&descSize=18" width="100%" />
 
 <br/>
 
 <!-- ═══════════ TYPING ANIMATION ═══════════ -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=2500&pause=800&color=A855F7&center=true&vCenter=true&width=750&lines=Hey!+I'm+Mihir+Govind+%F0%9F%91%8B;Backend+Developer+%F0%9F%9B%A0%EF%B8%8F+%7C+Spring+Boot+%E2%98%95;Building+Scalable+Microservices+%F0%9F%94%A5;Firebase+%7C+Docker+%7C+AWS+%7C+Redis;Always+Learning%2C+Always+Shipping+%F0%9F%9A%80" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=2800&pause=900&color=A855F7&center=true&vCenter=true&width=720&lines=Hey!+I'm+Mihir+%F0%9F%91%8B;Backend+Developer+%7C+Spring+Boot+%E2%98%95;Building+scalable+APIs+%26+microservices+%F0%9F%94%A5;Firebase+%7C+Docker+%7C+AWS+%7C+Redis;I+turn+coffee+into+backend+code+%E2%98%95%F0%9F%92%BB;Always+learning%2C+always+shipping+%F0%9F%9A%80" alt="Typing SVG" />
 
 <br/><br/>
 
-<!-- ═══════════ SOCIAL BADGES ═══════════ -->
-<p>
-  <a href="https://www.linkedin.com/in/mihir-govind/">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>&nbsp;
-  <a href="mailto:mihirmm0455@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>&nbsp;
-  <a href="https://www.instagram.com/_mihir_govind_">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
-  </a>&nbsp;
-  <a href="https://discord.com/users/__.mihir.__">
-    <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" />
-  </a>
-</p>
+<!-- ═══════════ DARK ICON SOCIAL BADGES ═══════════ -->
+<a href="https://www.linkedin.com/in/mihir-govind/" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=0A66C2" />
+</a>&nbsp;
+<a href="mailto:mihirmm0455@gmail.com">
+  <img src="https://img.shields.io/badge/Gmail-000000?style=for-the-badge&logo=gmail&logoColor=EA4335" />
+</a>&nbsp;
+<a href="https://www.instagram.com/_mihir_govind_" target="_blank">
+  <img src="https://img.shields.io/badge/Instagram-000000?style=for-the-badge&logo=instagram&logoColor=E4405F" />
+</a>&nbsp;
+<a href="https://discord.com/users/__.mihir.__" target="_blank">
+  <img src="https://img.shields.io/badge/Discord-000000?style=for-the-badge&logo=discord&logoColor=5865F2" />
+</a>
 
-<br/>
+<br/><br/>
 
-<!-- ═══════════ INFO PILLS ═══════════ -->
-<p>
-  <img src="https://img.shields.io/badge/📍_Bengaluru,_India-0d1117?style=flat-square&color=10b981" />
-  <img src="https://img.shields.io/badge/💼_Backend_Developer-0d1117?style=flat-square&color=8b5cf6" />
-  <img src="https://img.shields.io/badge/🚀_Open_to_Internships-0d1117?style=flat-square&color=06b6d4" />
-  <img src="https://komarev.com/ghpvc/?username=mihir000777&style=flat-square&color=blueviolet&label=👁️+Views" />
-</p>
+<!-- ═══════════ STATUS PILLS ═══════════ -->
+<img src="https://img.shields.io/badge/📍-Bengaluru%2C%20India-10b981?style=flat-square&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/💼-Backend%20Developer-8b5cf6?style=flat-square&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/🚀-Open%20to%20Internships-06b6d4?style=flat-square&labelColor=0d1117" />
+<img src="https://komarev.com/ghpvc/?username=mihir000777&style=flat-square&color=blueviolet&label=👁+Views" />
 
 </div>
 
@@ -47,9 +43,10 @@ const mihir = {
   name     : "Mihir Govind 👨‍💻",
   location : "Bengaluru, India 🇮🇳",
   role     : "Backend Developer 🛠️",
+  stack    : ["Java", "Spring Boot", "Node.js", "Firebase", "Docker"],
   learning : ["Spring AI 🤖", "AWS ☁️", "Kubernetes ⚙️", "System Design 📐"],
   building : "Scalable APIs & Microservices 🔥",
-  funFact  : "I once fixed a prod bug at 3am and called it 'agile' 😅",
+  funFact  : "I turn ☕ coffee into backend code",
   openTo   : "Internships · Collabs · Open Source 🚀"
 };
 ```
@@ -60,31 +57,23 @@ const mihir = {
 
 <div align="center">
 
-**🔤 Languages**
+**Languages**
 
 <img src="https://skillicons.dev/icons?i=java,javascript,html,css&theme=dark" />
 
-<br/>
-
-**⚙️ Backend & Frameworks**
+**Backend & Frameworks**
 
 <img src="https://skillicons.dev/icons?i=spring,nodejs,express,firebase&theme=dark" />
 
-<br/>
-
-**🗄️ Databases & Cache**
+**Databases & Cache**
 
 <img src="https://skillicons.dev/icons?i=mongodb,mysql,postgresql,redis&theme=dark" />
 
-<br/>
-
-**🎨 Frontend**
+**Frontend**
 
 <img src="https://skillicons.dev/icons?i=react,tailwind&theme=dark" />
 
-<br/>
-
-**☁️ Cloud, DevOps & Tools**
+**Cloud, DevOps & Tools**
 
 <img src="https://skillicons.dev/icons?i=aws,docker,git,linux,postman,vscode,idea,github&theme=dark" />
 
@@ -176,6 +165,14 @@ const mihir = {
 
 ---
 
+## 💬 Dev Quote of the Day
+
+<div align="center">
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" width="90%" />
+</div>
+
+---
+
 ## 🎯 2026 Roadmap
 
 ```
@@ -199,7 +196,7 @@ const mihir = {
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:10b981,50:06b6d4,100:8b5cf6&height=130&section=footer&animation=fadeIn" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:10b981,50:06b6d4,100:8b5cf6&height=140&section=footer&animation=fadeIn" width="100%" />
 
 *"First, solve the problem. Then, write the code."*
 
