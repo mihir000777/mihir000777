@@ -26,11 +26,8 @@
 
 <br/><br/>
 
-<!-- ═══════════ STATUS PILLS ═══════════ -->
-<img src="https://img.shields.io/badge/📍-Bengaluru%2C%20India-10b981?style=flat-square&labelColor=0d1117" />
-<img src="https://img.shields.io/badge/💼-Backend%20Developer-8b5cf6?style=flat-square&labelColor=0d1117" />
-<img src="https://img.shields.io/badge/🚀-Open%20to%20Internships-06b6d4?style=flat-square&labelColor=0d1117" />
-<img src="https://komarev.com/ghpvc/?username=mihir000777&style=flat-square&color=blueviolet&label=👁+Views" />
+<img src="https://komarev.com/ghpvc/?username=mihir000777&style=flat-square&color=blueviolet&label=Profile+Views" />
+<img src="https://img.shields.io/github/followers/mihir000777?style=flat-square&color=236ad3&labelColor=1155ba&label=Followers&logo=github&logoColor=white" />
 
 </div>
 
