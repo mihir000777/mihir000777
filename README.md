@@ -10,24 +10,27 @@
 
 <br/><br/>
 
-<!-- ═══════════ SOCIAL BADGES — clean pill style ═══════════ -->
+<!-- ═══════════ PREMIUM TWO-TONE SOCIAL BADGES ═══════════ -->
 <a href="https://www.linkedin.com/in/mihir-govind/">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A66C2" height="32"/>
+  <img src="https://img.shields.io/badge/LinkedIn-mihir--govind-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117" />
 </a>&nbsp;
 <a href="mailto:mihirmm0455@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=EA4335" height="32"/>
+  <img src="https://img.shields.io/badge/Gmail-mihirmm0455-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117" />
 </a>&nbsp;
 <a href="https://www.instagram.com/_mihir_govind_">
-  <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=E4405F" height="32"/>
+  <img src="https://img.shields.io/badge/Instagram-_mihir__govind_-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=0d1117" />
 </a>&nbsp;
 <a href="https://discord.com/users/__.mihir.__">
-  <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=5865F2" height="32"/>
+  <img src="https://img.shields.io/badge/Discord--.mihir.--5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=0d1117" />
 </a>
 
 <br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=mihir000777&style=for-the-badge&color=blueviolet&label=Profile+Views" />
-<img src="https://img.shields.io/github/followers/mihir000777?style=for-the-badge&color=236ad3&labelColor=1155ba&label=Followers&logo=github&logoColor=white" />
+<!-- ═══════════ STATUS BADGES ═══════════ -->
+<img src="https://img.shields.io/badge/Based%20In-India%20🇮🇳-10b981?style=flat-square&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/Role-Backend%20Developer-8b5cf6?style=flat-square&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/Open%20To-Internships%20%26%20Collabs-06b6d4?style=flat-square&labelColor=0d1117" />
+<img src="https://komarev.com/ghpvc/?username=mihir000777&style=flat-square&color=blueviolet&label=Profile+Views" />
 
 </div>
 
@@ -53,25 +56,33 @@ const mihir = {
 
 <div align="center">
 
-**Languages**
+**🔤 Languages**
 
-<img src="https://go-skill-icons.vercel.app/api/icons?i=java,javascript,html,css&theme=dark&size=48" />
+<img src="https://skillicons.dev/icons?i=java,javascript,html,css&theme=dark" />
 
-**Backend & Frameworks**
+<br/>
 
-<img src="https://go-skill-icons.vercel.app/api/icons?i=spring,nodejs,express,firebase&theme=dark&size=48" />
+**⚙️ Backend & Frameworks**
 
-**Databases & Cache**
+<img src="https://skillicons.dev/icons?i=spring,nodejs,express,firebase&theme=dark" />
 
-<img src="https://go-skill-icons.vercel.app/api/icons?i=mongodb,mysql,postgresql,redis&theme=dark&size=48" />
+<br/>
 
-**Frontend**
+**🗄️ Databases & Cache**
 
-<img src="https://go-skill-icons.vercel.app/api/icons?i=react,tailwind&theme=dark&size=48" />
+<img src="https://skillicons.dev/icons?i=mongodb,mysql,postgresql,redis&theme=dark" />
 
-**Cloud & DevOps**
+<br/>
 
-<img src="https://go-skill-icons.vercel.app/api/icons?i=aws,docker,git,linux,postman,vscode,idea&theme=dark&size=48" />
+**🎨 Frontend**
+
+<img src="https://skillicons.dev/icons?i=react,tailwind&theme=dark" />
+
+<br/>
+
+**☁️ Cloud, DevOps & Tools**
+
+<img src="https://skillicons.dev/icons?i=aws,docker,git,linux,postman,vscode,idea,github&theme=dark" />
 
 </div>
 
@@ -80,8 +91,7 @@ const mihir = {
 ## 🚀 Featured Projects
 
 ### 🛍️ BMSIT Bazaar — Campus P2P Marketplace
-
-> Built exclusively for the BMS Institute of Technology community
+> Built exclusively for BMS Institute of Technology
 
 | Feature | Implementation |
 |:---|:---|
@@ -94,14 +104,13 @@ const mihir = {
 
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
-![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 ![Cloudinary](https://img.shields.io/badge/Cloudinary-3448C5?style=flat-square&logo=cloudinary&logoColor=white)
 ![Razorpay](https://img.shields.io/badge/Razorpay-02042B?style=flat-square&logo=razorpay&logoColor=3395FF)
 
 ---
 
 ### ⏳ DropWait — Real-time Queue Server
-
 > O(log N) rank updates via Redis Sorted Sets + live WebSocket broadcasting
 
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
@@ -112,8 +121,7 @@ const mihir = {
 
 ---
 
-### 📡 Spring Boot REST APIs
-
+### 📡 Spring Boot REST APIs — Enterprise Template
 > JWT auth · Rate limiting · Spring AI ChatClient · RFC 7807 error responses
 
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
@@ -127,10 +135,7 @@ const mihir = {
 
 <div align="center">
 
-<!-- Streak stats — demolab hosted, always reliable -->
 <img src="https://streak-stats.demolab.com?user=mihir000777&theme=radical&hide_border=true&border_radius=12" width="49%" />
-
-<!-- Profile summary card — separate service, not rate-limited like github-readme-stats -->
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=mihir000777&theme=radical" width="49%" />
 
 <br/><br/>
