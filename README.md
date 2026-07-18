@@ -229,87 +229,9 @@ graph TD
 
   <!-- GitHub Activity Graph -->
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=mihir000777&theme=react&bg_color=05050a&color=06b6d4&line=8b5cf6&point=ffffff&area=true&hide_border=true" alt="Activity Graph" width="100%"/>
-
-  <br/><br/>
-
-  <!-- Contribution Snake Section -->
-  <h3>🐍 CONTRIBUTION SNAKE ANIMATION</h3>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mihir000777/mihir000777/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mihir000777/mihir000777/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake" src="https://raw.githubusercontent.com/mihir000777/mihir000777/output/github-contribution-grid-snake.svg" width="100%">
-  </picture>
 </div>
 
-<br/>
-<img src="./divider.svg" width="100%" alt="Section Divider" />
-<br/>
 
-<!-- ========================================== CODING PLATFORMS & SPOTIFY ========================================== -->
-
-## 🕹️ INTEGRATIONS & PLATFORMS
-
-<table width="100%" style="border-collapse: collapse; border: none; background: transparent;">
-  <tr style="border: none; background: transparent;">
-    <!-- LeetCode Card -->
-    <td width="33%" style="border: none; padding: 5px;">
-      <div style="background-color: #05050a; border: 1.5px solid #06b6d4; border-radius: 8px; box-shadow: 0 0 10px rgba(6, 182, 212, 0.1); padding: 15px; font-family: sans-serif; min-height: 180px;">
-        <h4 style="color: #06b6d4; margin: 0 0 10px 0; font-family: monospace; font-size: 13px;">🏆 LEETCODE</h4>
-        <p style="font-size: 12px; color: #cbd5e1; margin: 5px 0;">Solved: <b>150+ Questions</b></p>
-        <p style="font-size: 11px; color: #64748b; margin: 2px 0;">Easy: <span style="color: #22c55e;">60</span> | Med: <span style="color: #eab308;">80</span> | Hard: <span style="color: #ef4444;">10</span></p>
-        <div style="margin-top: 15px; background: #1e1b4b; border-radius: 4px; height: 8px; width: 100%; overflow: hidden;">
-          <div style="background: #06b6d4; width: 65%; height: 100%;"></div>
-        </div>
-        <div style="margin-top: 15px; text-align: center;">
-          <a href="https://leetcode.com/mihir000777" style="color: #06b6d4; font-size: 11px; text-decoration: none; font-family: monospace;">[ PROFILE ]</a>
-        </div>
-      </div>
-    </td>
-    <!-- Codewars Card -->
-    <td width="33%" style="border: none; padding: 5px;">
-      <div style="background-color: #05050a; border: 1.5px solid #8b5cf6; border-radius: 8px; box-shadow: 0 0 10px rgba(139, 92, 246, 0.1); padding: 15px; font-family: sans-serif; min-height: 180px;">
-        <h4 style="color: #8b5cf6; margin: 0 0 10px 0; font-family: monospace; font-size: 13px;">🥋 CODEWARS</h4>
-        <p style="font-size: 12px; color: #cbd5e1; margin: 5px 0;">Rank: <b>4 kyu</b></p>
-        <p style="font-size: 11px; color: #64748b; margin: 2px 0;">Completed: <b>120+ Kata Tasks</b></p>
-        <div style="margin-top: 15px; background: #1e1b4b; border-radius: 4px; height: 8px; width: 100%; overflow: hidden;">
-          <div style="background: #8b5cf6; width: 75%; height: 100%;"></div>
-        </div>
-        <div style="margin-top: 15px; text-align: center;">
-          <a href="https://www.codewars.com/users/mihir000777" style="color: #8b5cf6; font-size: 11px; text-decoration: none; font-family: monospace;">[ PROFILE ]</a>
-        </div>
-      </div>
-    </td>
-    <!-- Spotify Card -->
-    <td width="33%" style="border: none; padding: 5px;">
-      <div style="background-color: #05050a; border: 1.5px solid #d946ef; border-radius: 8px; box-shadow: 0 0 10px rgba(217, 70, 239, 0.1); padding: 15px; font-family: sans-serif; min-height: 180px;">
-        <h4 style="color: #d946ef; margin: 0 0 10px 0; font-family: monospace; font-size: 13px;">🎵 SPOTIFY</h4>
-        <p style="font-size: 11px; color: #cbd5e1; margin: 2px 0; font-weight: bold;">Neon Horizons (Lofi)</p>
-        <p style="font-size: 10px; color: #64748b; margin: 0;">By Cyberpunk Collective</p>
-        <!-- Progress track -->
-        <div style="margin-top: 15px;">
-          <div style="background: #1e1b4b; border-radius: 4px; height: 3px; width: 100%;">
-            <div style="background: #d946ef; width: 45%; height: 100%; border-radius: 4px;"></div>
-          </div>
-        </div>
-        <div style="margin-top: 10px; text-align: center; font-size: 10px; color: #64748b;">
-          [ CURRENTLY PLAYING ]
-        </div>
-      </div>
-    </td>
-  </tr>
-</table>
-
-<br/>
-<div align="center">
-  <!-- Holopin Badge Deck -->
-  <a href="https://holopin.io/@mihir000777">
-    <img src="https://holopin.io/api/user/badgeboard?user=mihir000777" alt="Mihir's Holopin Deck" width="100%" />
-  </a>
-</div>
-
-<br/>
-<img src="./divider.svg" width="100%" alt="Section Divider" />
-<br/>
 
 <!-- ========================================== SYSTEM ROADMAP ========================================== -->
 
